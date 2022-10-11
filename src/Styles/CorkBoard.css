@@ -1,0 +1,16 @@
+.frame {
+    margin: 0;
+    background-color: whitesmoke;
+    border: 4px rgb(251, 228, 18) solid;
+    border-radius: 6px;
+    margin: 2em;
+    padding: 2em;
+    padding-top: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 10px;
+}
+
+@media (min-width: 546px) {
+    .frame {
+        margin: 4em;
+    }
+}

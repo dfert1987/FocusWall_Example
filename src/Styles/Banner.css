@@ -1,0 +1,111 @@
+.banner-container {
+    align-items: flex-end;
+    border-bottom: 3px solid whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 10px;
+    display: flex;
+    height: 5em;
+    margin-bottom: 0;
+    background: radial-gradient(ellipse at bottom, #00b4db, #0083b0);
+    width: 100%;
+    z-index: -8;
+}
+
+.center-tab {
+    background-image: linear-gradient(
+        to top,
+        rgb(130, 28, 158),
+        rgba(133, 7, 139, 0.95)
+    );
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top: white 2px solid;
+    border-left: 2px white solid;
+    border-right: 2px white solid;
+    box-shadow: 10px 5px 12px -10px #000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 90%;
+    width: 60%;
+    max-width: 20em;
+    position: relative;
+    bottom: 0em;
+    z-index: 10;
+}
+
+.center-tab-top-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.domain {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 231, 77);
+    margin-bottom: 0;
+    margin-top: 0.75em;
+    padding-right: 0.5em;
+    text-shadow: 2px 2px 6px black;
+}
+
+.domain-name {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    margin-top: 0.9em;
+    text-shadow: 2px 2px 6px black;
+}
+
+.dotted-line {
+    border: none;
+    border-top: 2.5px dotted whitesmoke;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0.4em;
+}
+
+.center-tab-bottom-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.topic-tab {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    margin-top: 0;
+}
+
+.topic-tab.left {
+    margin-right: 0.5em;
+}
+
+@media (min-width: 600px) {
+    .banner-container {
+        height: 10em;
+    }
+
+    .center-tab {
+        height: 70%;
+    }
+
+    .domain {
+        font-size: 1.5em;
+        margin-bottom: 0.25em;
+    }
+
+    .domain-name {
+        font-size: 1.5em;
+        margin-top: 0.78em;
+    }
+
+    .dotted-line {
+        border-top: 3px dotted whitesmoke;
+    }
+
+    .topic-tab {
+        font-size: 1.2em;
+        margin-top: 0.25em;
+    }
+}
