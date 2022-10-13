@@ -1,0 +1,49 @@
+.foundational-skills-container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #0083b0;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.8) 4px 4px 6px;
+}
+
+.foundational-header {
+    border-bottom: #0083b0 3px solid;
+    background: radial-gradient(ellipse at bottom, #ad00d0, rgb(130, 28, 158));
+    text-shadow: 2px 2px 3px black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.foundational-header-main {
+    background-image: linear-gradient(
+        to top,
+        rgb(130, 28, 158),
+        rgba(133, 7, 139, 0.95)
+    );
+    box-shadow: 0px 1px 2px black;
+    text-align: center;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.foundational-skills-title-2 {
+    color: white;
+    font-family: 'moon_get-Heavy';
+    font-size: 1em;
+    text-shadow: 2px 2px 3px black;
+}
+
+.foundational-skills-title-3 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.85em;
+    text-shadow: 2px 2px 3px black;
+}
+
+.words-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,39 @@
+.phonics-fluency-container {
+    text-align: center;
+}
+
+.phonics-container {
+    border: 3px rgba(133, 7, 139, 0.95) solid;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.8) 4px 4px 6px;
+}
+
+.phonics-header {
+    border-bottom: 3px rgba(133, 7, 139, 0.95) solid;
+    background: radial-gradient(ellipse at bottom, #00b4db, #0083b0);
+    height: 100%;
+}
+
+.phonics-title {
+    margin-top: 0;
+    padding-top: 0.5em;
+    margin-bottom: 0;
+    padding-bottom: 0.5em;
+    color: #ffe74d;
+    font-family: 'moon_get-Heavy';
+    text-shadow: 2px 3px 2px black;
+}
+
+.phonics-topics {
+    padding: 1em;
+    width: 9em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fluency-container {
+    margin-top: 1em;
+    border-radius: 6px;
+    border: 3px rgba(133, 7, 139, 0.95) solid;
+}
+
+
